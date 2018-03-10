@@ -16,7 +16,7 @@ and starting the ndoe3_replace node.
 Now here, at this point, you will get your first surprise with below exception  in case node1 and node2  got  somehow restarted since the time  node3  failure.
 
     ERROR \[main\] 2017-11-15 13:57:59,043 CassandraDaemon.java:583 - Exception encountered during startup
-    java.lang.RuntimeException: Cannot replace_address /10.61.216.133 because it doesn't exist in gossip
+    java.lang.RuntimeException: Cannot replace_address /<node3 ip> because it doesn't exist in gossip
 
 **Issue 2 : Unable to replace as while resolving above issue 1 you ignored a word in resolution provided .**
 
